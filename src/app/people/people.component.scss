@@ -1,0 +1,18 @@
+.person-item {
+    height: 100%;
+    margin: 15px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 30px;
+}
+
+.create-person {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+<div class="popup-component">
+    <div
+        class="popup-overlay"
+        (click)="clickOverlay()"
+    ></div>
+
+    <div class="popup">
+        <div class="popup-header">
+            Details
+        </div>
+        <div class="popup-body">
+            <form>
+                <div class="form-group">
+                    <label for="">
+                        Nome
+                    </label>
+                    <input type="text" [(ngModel)]="selectedPerson.name" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

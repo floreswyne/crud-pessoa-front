@@ -1,0 +1,27 @@
+<div
+    class="person-item"
+    *ngFor="let person of people"
+    (click)="selectPerson(person)"
+    key={person.id}
+>
+    <h2>
+        {{ person.name }}
+    </h2>
+</div>
+
+<!-- *ngIf="selectedPerson" -->
+<!-- <div class="details-popup" >
+    Opa
+</div> -->
+<app-popup
+    *ngIf="state"
+    [state]="state"
+    [person]="selectedPerson"
+>
+</app-popup>
+
+<button
+    class="create-person"
+>
+    Create
+</button>

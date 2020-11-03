@@ -1,0 +1,34 @@
+.popup-component {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000AA;
+}
+
+.popup {
+    width: 90vw;
+    height: 50%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
